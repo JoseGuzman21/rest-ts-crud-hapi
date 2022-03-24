@@ -1,0 +1,36 @@
+{
+  "name": "rest-ts-crud-hapi-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "js": "tsc && nodemon ./dist/index.js",
+    "dev": "nodemon src/index.ts --exec ts-node",
+    "build": "build & node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseGuzman21/rest-ts-crud-hapi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseGuzman21/rest-ts-crud-hapi/issues"
+  },
+  "homepage": "https://github.com/JoseGuzman21/rest-ts-crud-hapi#readme",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/hapi__hapi": "^20.0.10",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^17.0.23",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "bcrypt": "^5.0.1",
+    "mongoose": "^6.2.8"
+  }
+}
